@@ -13,16 +13,21 @@ header .main a {
 	display: inline-block;
 	height: 100%;
 
-	font-size: 4em;
 	text-align: center;
-	line-height: 75px;
 	color: #000;
 }
 header .main a img {
-	margin: 0 auto;
+	float: left;
+	margin: 0 0 0 25px;
 }
 header nav {
 	background: #333
+}
+header nav menu {
+	color: #FFF;
+}
+header nav menu menuitem:not(:last-child) {
+	border-right: 1px solid #FFF;
 }
 main {
 	color: #010101;
@@ -36,6 +41,11 @@ main {
 	width: 100%;
 	height: auto;
 }
+.img-resp-h {
+	max-height: 100%;
+	height: 100%;
+	width: auto;
+}
 
 /* GRID */
 .col { padding: 15px; }
@@ -46,22 +56,41 @@ main {
 
 .clear { clear: both; }
 
+
+
+/* HEADER */
+header .main { height: 75px; }
+header .main a { font-size: 4em; }
+header nav { height: 30px; }
+header nav menu { color: #FFF; font-size: 2em; margin: 5px 10px; }
+aside ul li { font-size: 1.4em; margin: 0px 0 0 30px; }
+
+
+/* BODY */
+.wapper { max-width: 1024px; }
+
+/* FOOTER */
+
+/* GLOBAL */
+h1 {
+	font-size: 3em;
+	font-weight: 900;
+	margin-bottom: 10px;
+}
+p {
+	font-size: 1.3em;
+	margin: 10px 0;
+}
+
+
+
 @media screen and (min-width: 757px) {
-	/* HEADER */
-	header .main { min-height: 75px; }
-	header nav { height: 30px; }
+	html { font-size: 10px; }
 
-	/* BODY */
-	.wapper { max-width: 1024px; }
-
-	/* FOOTER */
-
-	/* GLOBAL */
-	h1 {
-		font-size: 3em;
-		font-weight: 900;
-		margin-bottom: 10px;
-	}
+	header nav menu { color: #FFF; display: inline-block; }
+	header nav menu menuitem { padding: 0 10px; }
+	aside h1, aside ul li { text-align: left; }
+	aside ul li { font-size: 2em; margin: 10px 30px; list-style: inherit; }
 
 	.lg-col-12 { width: 100%; }
 	.lg-col-11 { width: 91.6%; }
@@ -77,21 +106,12 @@ main {
 	.lg-col-1 { width: 8.3%; }
 }
 @media screen and (min-width: 421px) and (max-width: 756px) {
-	/* HEADER */
-	header .main { min-height: 75px; }
-	header nav { height: 30px; }
+	html { font-size: 11px; }
 
-	/* BODY */
-	.wapper { max-width: 720px; }
-
-	/* FOOTER */
-
-	/* GLOBAL */
-	h1 {
-		font-size: 3em;
-		font-weight: 900;
-		margin-bottom: 10px;
-	}
+	header nav menu { color: #FFF; display: inline-block; }
+	header nav menu menuitem { padding: 0 10px; }
+	aside h1, aside ul li { text-align: center; }
+	aside ul li { font-size: 2em; margin: 10px 30px; list-style: none; }
 
 	.md-col-12 { width: 100%; }
 	.md-col-11 { width: 91.6%; }
@@ -107,21 +127,12 @@ main {
 	.md-col-1 { width: 8.3%; }
 }
 @media screen and (min-width: 321px) and (max-width: 420px) {
-	/* HEADER */
-	header .main { min-height: 60px; }
-	header nav { height: 30px; }
+	html { font-size: 12px; }
 
-	/* BODY */
-	.wapper { max-width: 400px; }
-
-	/* FOOTER */
-
-	/* GLOBAL */
-	h1 {
-		font-size: 3em;
-		font-weight: 900;
-		margin-bottom: 10px;
-	}
+	header nav menu { color: #FFF; display: inline-block; }
+	header nav menu menuitem { padding: 0 10px; }
+	aside h1, aside ul li { text-align: center; }
+	aside ul li { font-size: 2em; margin: 10px 30px; list-style: none; }
 
 	.sm-col-12 { width: 100%; }
 	.sm-col-11 { width: 91.6%; }
@@ -137,21 +148,12 @@ main {
 	.sm-col-1 { width: 8.3%; }
 }
 @media screen and (max-width: 320px) {
-	/* HEADER */
-	header .main { min-height: 50px; }
-	header nav { height: 30px; }
+	html { font-size: 10px; 
 
-	/* BODY */
-	.wapper { max-width: 100%; }
-
-	/* FOOTER */
-
-	/* GLOBAL */
-	h1 {
-		font-size: 3em;
-		font-weight: 900;
-		margin-bottom: 10px;
-	}
+	header nav menu { color: #FFF; display: inline-block; }
+	header nav menu menuitem { padding: 0 10px; }
+	aside h1, aside ul li { text-align: center; }
+	aside ul li { font-size: 2em; margin: 10px 30px; list-style: none; }
 
 	.xs-col-12 { width: 100%; }
 	.xs-col-11 { width: 91.6%; }
