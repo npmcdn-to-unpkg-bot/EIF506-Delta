@@ -1,0 +1,153 @@
+/*CSS Desktop First*/
+
+/*----------------------------------------------------------------------------------------------------*/
+
+header{
+
+	background-color:#c0c0c0;
+	height: 100px;
+	
+}
+
+span{
+
+	font-weight: bold;
+	padding-left: 2%;
+	font-size: 25px;
+
+}
+
+h1
+{
+	font-size:170%;
+}
+
+h2
+{
+	font-size: 120%;
+}
+
+body{
+	font-size: 1.5em;
+}
+
+menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+menu menuitem{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+menu menuitem:hover {
+	background-color: #111;
+}
+
+aside{
+
+	float:left;
+	width:20%
+
+}
+
+/*Css por clase*/
+.articleInfo{
+
+	float: left;
+	width:80%;
+
+}
+
+.images{
+
+	float: left;
+	width: 80%;
+	
+}
+
+.navSide{
+	float:left;
+	width:20%;
+}
+
+.navSide ul li a{
+
+	color:black;
+	text-decoration: none;
+	
+}
+
+/*Css por ID*/
+
+#mainNav
+	{
+		float:left;
+		width:100%;
+	}
+	
+#textoPrincipal
+{
+	float:right;
+	min-width: 100%;
+}
+
+/*Css Media Query*/
+@media print {
+
+	header, #mainNav, footer 
+	{
+		display: none;
+	}
+	
+	.navSide
+       {
+		clear:left;
+		width:50%;
+    }
+	
+	.articleInfo{
+		width:100%;
+	}
+
+}
+
+@media screen and (max-width:600px){
+	
+	.images
+	{
+		clear:left;
+		width: 100%;
+	}
+	
+	.navSide
+       {
+		clear:left;
+		width:70%;
+    }
+	
+	.articleInfo{
+		clear:left;
+		width:100%;
+	}
+	
+	menu menuitem
+	{
+		clear: left;
+		width:100%;		
+	}
+	
+}
+
+
+
+

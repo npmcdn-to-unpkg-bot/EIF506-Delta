@@ -1,6 +1,9 @@
 /*
 	Estilo para mobile first
 */
+/*
+	Estilos generales.
+*/
 body{
 	font: 2em;
 	margin: 0%;
@@ -9,26 +12,12 @@ body{
 	border: 0 none white;
 }
 header{
-	position: fixed;
 	margin: 0;
 	padding: 0;
 	border: 0;
-}
-.titulo{
+	float: left;
 	width: 100%;
-	padding-top: 0%;
 	background-color: gray;
-	padding-bottom: 0%;
-	padding-left: 0px;
-	padding-right: 0px;
-	float:left;
-	margin: 0%;
-	border: none;
-}
-.titulo span{
-	margin: 0.5%;
-	padding: 0.5%;
-	border: none;
 }
 nav{
 	float: left;
@@ -37,12 +26,9 @@ nav{
 	border: none;
 	padding: none;
 }
-.menu{
-	margin-top: 4.5%;
-}
 menu{
-	background-color:black;
-	width:100%;
+	background-color: black;
+	width: 100%;
 	padding:0;
 	margin: 0;
 	float: left;
@@ -56,36 +42,12 @@ menu menuitem{
 	margin: 0;
 	width: 100%;
 }
-.menu menuitem{
-	color:white;
-}
 menu menuitem:hover{
 	color:gray;
-}
-.titulo_p{
-	float:left;
-	width:100%;
-	margin: 0;
-	padding: 0;
-	border: none;
-}
-.imagen{
-	float:left;
-	width:100%;
-	border: none;
-	margin: 0;
-	padding: 0;
 }
 aside{
 	float: left;
 	width: 100%;
-	border: none;
-	margin: 0;
-	padding: 0;
-}
-.texto{
-	float:left;
-	width:100%;
 	border: none;
 	margin: 0;
 	padding: 0;
@@ -101,113 +63,102 @@ footer{
 footer p{
 	padding: 0.5%;
 	margin: 0.5%;
+	text-align: center;
 }
-#img{
-		float: left;
-		border:none;
-		margin:0;
-		padding:0;
-		width: 90%;
-	}
-	#texto_p{
-		float: left;
-		border:none;
-		margin:0;
-		padding:0;
-	}
 
+/*
+	Estilos para clases
+*/
+.titulo span{
+	margin: 0.5%;
+	padding: 0.5%;
+	border: none;
+}		
+.menu{
+	margin-top: 4.5%;
+}		
+.menu menuitem{
+	color:white;
+}
+.titulo_p{
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border: 0px solid white;
+}
+.imagen{
+	float:left;
+	width:100%;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+.texto{
+	float:left;
+	width:100%;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+/*
+	Estilos para id's solo para casos especificos 
+*/
+#img{
+	float: left;
+	border:none;
+	margin:0;
+	padding:0;
+	width: 90%;
+}
+#texto_p{
+	float: left;
+	border:none;
+	margin:0;
+	padding:0;
+}
+	
 /*
 
 Aca empiezan los media Query, cuando la pantalla tiene un minimo de 470 px se aplica el estilo para pc
 
 */
-
 @media only screen and (min-width: 470px) {
-	/*body{
-		overflow-y: hidden;
-	}
-	.contenedor{
-		overflow: auto;
-	}*/
 	body{
-		font: 2em;
 		margin: 0.1%;
 		padding: 0%;
-		border: 0 none white;
+		border: 0 solid white;
 	}
-	header{
-		position: static;
-		margin: 0;
-		padding: 0;
-		border: 0;
-		float: left;
-		width:98%;
-	}
-	.titulo{
-	width: 100%;
-	padding-top: 0.5%;
-	background-color: gray;
-	padding-bottom: 0.5%;
-	padding-left: 0px;
-	padding-right: 0px;
-	float:left;
-	margin: 0%;
-	border: none;
-}
 	menu{
-		background-color:black;
-		width:100%;
-		padding:0;
-		margin: 0;
-		float: left;
 		height: 0%;
-		border: none;
-		margin-top: 0px;
 	}
 	menu menuitem{
-		float: left;
 		border-right: 1px solid white;
-		padding: 1%;
-		margin: 0;
 		width: auto;
 	}
 	nav{
 		width: 100%;
 		margin: 0%;
 	}
+	aside{
+		width: 25%;
+	}	
 	.menu{
-	margin-top: 0%;
-}
-	.titulo_p{
-		float:left;
-		width:100%;
-		margin: 0;
-		padding: 0;
-		border: none;
+		margin-top: 0%;
 	}
 	.imagen{
-		float: left;
-		border: none;
-		margin: 0;
-		padding: 0; 
 		width: 75%;
 	}
-	
-	aside{
-		float: left;
-		width: 25%;
-		border: none;
-		margin: 0;
-		padding: 0;
+	.titulo{
+		padding-top: 0.5%;
+		padding-bottom: 0.5%;
+		padding-left: 0px;
+		padding-right: 0px;
 	}
 	#img{
-		float: left;
-		border:none;
-		margin:0;
-		padding:0;
 		width: 70%;
 	}
 }
-
 
 
