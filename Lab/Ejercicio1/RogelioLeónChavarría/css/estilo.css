@@ -1,0 +1,169 @@
+body{
+	font: 2em;
+	margin: 0.5%;
+	margin-top: 0.3%;
+	padding: 0%;
+	border: 0 none white;
+}
+.titulo{
+	width: 100%;
+	padding-top: 0.5%;
+	background-color: gray;
+	padding-bottom: 0.5%;
+	padding-left: 0px;
+	padding-right: 0px;
+	float:left;
+	margin: 0%;
+	border: none;
+}
+.titulo span{
+	margin: 0.5%;
+	padding: 0.5%;
+	border: none;
+}
+nav{
+	float: left;
+	width: 100%;
+	margin: 0%;
+	border: none;
+	padding: none;
+}
+menu{
+	background-color:black;
+	width:100%;
+	padding:0;
+	margin: 0;
+	float: left;
+	height: 2%;
+	border: none;
+}
+menu menuitem{
+	float: left;
+	border-right: 1px solid white;
+	padding: 1%;
+	margin: 0;
+}
+.menu menuitem{
+	color:white;
+}
+menu menuitem:hover{
+	color:gray;
+}
+.titulo_p{
+	float:left;
+	width:100%;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+.imagen{
+	float:left;
+	width:75%;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+aside{
+	float: left;
+	width: 25%;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+.texto{
+	float:left;
+	width:100%;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+footer{
+	float:left;
+	width:100%;
+	background-color:gray;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+footer p{
+	padding: 0.5%;
+	margin: 0.5%;
+}
+
+
+/*
+
+Aca empiezan los media Query
+
+*/
+
+@media only screen and (max-width: 470px) {
+	/*body{
+		overflow-y: hidden;
+	}
+	.contenedor{
+		overflow: auto;
+	}*/
+	header{
+		position: fixed;
+		margin: 0;
+		padding: 0;
+		border: 0;
+	}
+	.menu{
+		margin-top: 5%;
+	}
+	menu{
+		background-color:black;
+		width:100%;
+		padding:0;
+		margin: 0;
+		float: left;
+		height: 2%;
+		border: none;
+	}
+	menu menuitem{
+		float: left;
+		border-right: 1px solid white;
+		padding: 1%;
+		margin: 0;
+		width: 100%;
+	}
+	.titulo_p{
+		float:left;
+		width:100%;
+		margin: 0;
+		padding: 0;
+		border: none;
+	}
+	.imagen{
+		float: left;
+		border: none;
+		margin: 0;
+		padding: 0; 
+		width: 100%;
+	}
+	#img{
+		float: left;
+		border:none;
+		margin:0;
+		padding:0;
+		width: 100%;
+	}
+	#texto_p{
+		float: left;
+		border:none;
+		margin:0;
+		padding:0;
+	}
+	aside{
+		float: left;
+		width: 100%;
+		border: none;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+
+
