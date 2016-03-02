@@ -1,0 +1,147 @@
+
+header{
+
+	background-color:#c0c0c0;
+	height: 100px;
+	
+}
+
+span{
+
+	font-weight: bold;
+	padding-left: 2%;
+	font-size: 195%;
+
+}
+
+h1
+{
+	font-size:170%;
+}
+
+h2
+{
+	font-size: 120%;
+}
+
+body{
+	font-size: 1.5em;
+}
+
+menu{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+	}
+
+menu menuitem{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 0.2% 1%;
+	text-decoration: none;
+	float:none;
+	width:100%;
+}
+
+menu menuitem:hover {
+	background-color: #111;
+}
+
+.articleInfo{
+
+	float: none;
+	width:100%;
+
+}
+
+.images{
+
+	float: none;
+	width: 100%;
+}
+
+.navSide{
+	float:left;
+	width:50%;
+}
+
+.navSide ul li a{
+
+	color:black;
+	text-decoration: none;
+	
+}
+
+@media print {
+
+	header, #mainNav, footer 
+	{
+		display: none;
+	}
+	
+	.navSide
+       {
+		clear:left;
+		width:50%;
+    }
+	
+	.articleInfo{
+		width:100%;
+	}
+
+}
+
+@media screen and (min-width:600px){
+
+	aside
+	{
+		float:left;
+		width:20%;
+	}
+	
+	.images
+	{
+		float:left;
+		width: 70%;
+	}
+	
+	.navSide
+       {
+		float:left;
+		width:20%;
+    }
+	
+	.articleInfo{
+		float:left;
+		width:70%;
+	}
+	
+	menu menuitem
+	{
+		float: left;
+		width:10%;
+		border-right: 1px solid #bbb;
+	}
+	
+	#mainNav
+	{
+		float:left;
+		width:100%;
+	}
+	
+	#textoPrincipal
+	{
+		float:right;
+		min-width: 100%;
+	}
+	
+}
+
+
+
+
+
+
