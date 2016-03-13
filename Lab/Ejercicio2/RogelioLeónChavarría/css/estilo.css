@@ -1,0 +1,274 @@
+/*
+	Estilo para el primer ejercicio de box model
+*/
+.Contenedor{
+	margin: 2px;
+	border: 1px dashed black;
+	padding: 1px;
+}
+.margin{
+	margin: 2px;
+	border: 1px;
+	padding-left: 10px;
+}
+.border{
+	margin: 15px;
+	border: 1px outset black;
+	padding: 10px;
+	color: white;
+	background-color: black;
+}
+.padding{
+	margin: 15px;
+	border: 1px solid black;
+	padding: 10px;
+	color: black;
+	background-color: yellow;
+}
+.innerbox{
+	margin: 15px;
+	border: 1px dashed black;
+	padding: 10px;
+	color: black;
+	background-color: yellow;
+}
+.arrows{
+	margin: 15px;
+	border: 1px;
+	padding: 10px;
+	color: black;
+	background-color: yellow;
+}
+
+/*
+	Estilos para el segundo ejercicio del boxmodel
+*/
+.Contenedor2{
+	margin: 3px;
+	border: 1px solid gray;
+	padding: 3px;
+	position: float;
+	float: left;
+	background-color: yellow;
+	width: 98%;
+	height: 50px;;
+}
+.p_before{
+	margin: 2px;
+	border: 1px;
+	padding: 1px;
+	position: float;
+	float: left;
+	width: 100%;
+}
+.p_after{
+	margin: 2px;
+	border: 1px;
+	padding: 1px;
+	position: float;
+	float: left;
+	width: 5%;
+	text-align: right;
+}
+.float_before{
+	border: 3px outset black;
+	padding: 2px;
+	margin: 2px;
+	width: 15%;
+	float: left;
+	background-color: yellow;
+}
+.float_after{
+	border: 3px outset black;
+	padding: 2px;
+	margin: 2px;
+	width: 15%;
+	float: left;
+	background-color: yellow;
+}
+.arrows2{
+	border: 3px outset black;
+	padding: 2px;
+	margin: 2px;
+	width: 50%;
+	float: left;
+	background-color: yellow;
+}
+
+/*
+	Estilos para el tercer ejercicio del boxmodel
+*/
+.Contenedor3{
+	margin: 3px;
+	border: 1px solid gray;
+	padding: 3px;
+	position: absolute;
+	background-color: yellow;
+	width: 98%;
+	height: 70px;
+	top: 50px;
+}
+.arrows3{
+	border: 3px outset black;
+	padding: 2px;
+	margin: 2px;
+	width: 300px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	background-color: yellow;
+}
+.p_before2{
+	margin: 2px;
+	border: 1px;
+	padding: 1px;
+	position: absolute;
+	width: 10%;
+	height: 10px;
+	left: 400px;
+}
+.p_after2{
+	margin: 2px;
+	border: 1px;
+	padding: 1px;
+	position: absolute;
+	width: 10%;
+	height: 5px;
+	left: 400px;
+	top: 20px;
+}
+.absolute_after{
+	border: 3px outset black;
+	padding: 2px;
+	margin: 2px;
+	width: 15%;
+	position: absolute;
+	left: 1000px;
+	top: -45px;
+	background-color: yellow;
+}
+.absolute_before{
+	border: 3px outset black;
+	padding: 2px;
+	margin: 2px;
+	width: 15%;
+	position: absolute;
+	left: 750px;
+	top: 150px;
+	background-color: yellow;
+}
+
+/*
+	Estilos para el ejemplo de positional
+*/
+.div_before{
+	background-color: yellow;
+	border: 3px outset black;
+}
+
+.div_before p{
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+	border: 1px outset black;
+	width: 93%;
+}
+.span{
+	background-color: yellow;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px outset black;
+}
+.div_after{
+	background-color: yellow;
+	border: 3px outset black;
+}
+.div_after p{
+	background-color: white;
+	margin: 10px;
+	padding: 10px;
+	border: 1px outset black;
+	width: 375px;;
+}
+
+
+/*
+	Estilos para el ejercicio de static
+*/
+.centered{
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.static{
+	position: static;
+}
+.span_absolute{
+	position:absolute;
+	top: 270px;
+	left: 85px;
+}
+/*.span_fixed{
+	position: fixed;
+	bottom: 20px;
+	right: 5px;
+}*/
+.span_relative{
+	position: relative;
+	top: 18px;
+	left: 50px;
+}
+.span_float{
+	float: right;
+}
+.span_relative_float{
+	float: right;
+	position: relative;
+	top: 50px;
+}
+
+.span2{
+	position: static;
+	margin: 40px;
+	line-height: 32px;
+	padding: 3px;
+	border: 2px solid black;
+	background-color: yellow;
+}
+.tamfix{
+	position: static;
+	width: 120px;
+	height: 100px;
+	margin: 10px auto;
+	border: 5px solid black;
+	background-color: #ffcc00;
+	text-align: center;
+}
+.alargado{
+	position: static;
+	width: auto;
+	height: auto;
+	margin: 10px 50px;
+	border: 5px solid black;
+	background-color: #ffcc00;
+	text-align: center;
+}
+.caja{
+	border: 5px solid black;
+	background-color: #ffcc00;
+	text-align: center;
+}
+.abuelo{
+	border: 2px solid black;
+	margin: 3px;
+	padding: 10px;
+}
+.padre{
+	border: 2px solid black;
+	margin: 3px;
+	padding: 10px;
+}
