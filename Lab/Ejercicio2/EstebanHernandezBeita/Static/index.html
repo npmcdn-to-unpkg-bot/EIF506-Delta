@@ -7,21 +7,20 @@
 		<link rel="stylesheet" type="text/css" href="../css/styleStatic.css">
 	</head>
 	<body>
-		
-		<div id="grandparent">
+		<div id="grandParent">
 			<p>Positioned Grandparent</p>
-			<div id="parent">
+			<div id="parent" class="box">
 				<p>Non-positioned Parent</p>
 				
-				<div id="fixedSize">
+				<div id="fixedSize" class="contentCentered">
 					<p>Sized Static Block</p>
 				</div>
 				
-				<div id="stretched">
+				<div id="stretched" class="contentCentered">
 					<p>Streched Static Block</p>
 				</div>
 				
-				<div class="smallBox contentCentered">
+				<div id="lastBox" class="smallBox contentCentered">
 					<span class="span box">Shrinkwrapped Static Inline</span>
 					<span class="span box">Shrinkwrapped Static Inline</span>
 					<span class="span box">Shrinkwrapped Static Inline</span>
@@ -29,6 +28,5 @@
 				</div>
 			</div>
 		</div>
-			
 	</body>
 </html>
