@@ -1,0 +1,60 @@
+p {
+	font-style: italic;
+	font-weight: bold;
+	margin: 0%;
+}
+
+#outerBox {
+	height: 400px;
+	width: 400px;
+	margin: 0%;
+	padding: 0%;
+}
+
+#margin {
+	margin: 0% 4%;
+	width: 97%;
+	height: 97%;
+	padding: 1.5%;
+}
+
+#border {
+	width: 89%;
+	background-color: #8c8c8c;
+	height: 86%;
+	padding: 1.5%;
+	margin: 2% 4%;
+}
+
+#borderText {
+	color: white;
+}
+
+#padding{
+	width: 87%;
+	background-color: #FFFF33;
+	height: 84%;
+	padding: 1.5%;
+	margin: 2% 5%;
+}
+
+#innerBox{
+	width: 83%;
+	background-color: #FFFF33;
+	height: 82%;
+	padding: 1.5%;
+	margin: 3% 7%;
+}
+
+#contentInnerBox{
+	margin-top: 45%; 
+}
+
+#contentInnerBox p,span{
+	font-style: normal;
+}
+
+#innerBoxMidSeparator{
+	width: 34%;
+	margin: 0% 27.5%;
+}

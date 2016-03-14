@@ -1,0 +1,17 @@
+.dotted {
+	border-style: dotted;
+}
+
+.contentCentered {
+	text-align: center;
+}
+
+.box {
+	background-color: yellow;
+	border: 1px solid gray;
+	font-weight: bold;
+}
+
+.smallBox {
+	border: 3px outset black;
+}

@@ -1,0 +1,48 @@
+#largeBox{
+	width: 98%;
+	height: 66px;
+	margin: 1%;
+	padding: %1;
+	position: float;
+	float: left;
+}
+
+#before{
+	margin: 2px;
+	padding: 1px;
+	position: float;
+	float: left;
+	width: 100%;
+}
+
+#floatBefore{
+	padding: 2px;
+	margin: 2px;
+	width: 15%;
+	position: float;
+	float: left;
+}
+
+#floatAfter{
+	padding: 2px;
+	margin: 2px;
+	width: 15%;
+	position: float;
+	float: left;
+}
+
+#location{
+	padding: 2px;
+	margin: 2px;
+	width: 50%;
+	position: float;
+	float: left;
+}
+
+#after{
+	margin: 2px;
+	padding: 1px;
+	position: float;
+	float: left;
+	width: 5%;
+}

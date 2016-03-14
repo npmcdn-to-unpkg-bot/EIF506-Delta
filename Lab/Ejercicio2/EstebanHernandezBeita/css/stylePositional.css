@@ -1,0 +1,64 @@
+.largeBox{
+	padding: 5px;
+	height: 80px;
+	margin: 8px;
+}
+ 
+h2 {
+	margin: 0px;
+}
+
+#largeBoxBefore{
+	height: 30px;
+	margin: 12px;
+	background-color: white;
+	width: 98%;
+}
+
+#largeBoxBefore p{
+	margin-top: 6.4px;
+}
+
+span {
+	margin: 0px 10px;
+	padding: 5px 4px 5px 4px;
+}
+
+#largeBoxAfter{
+	height: 30px;
+	margin: 0px 25%;
+	background-color: white;
+	width: 50%;
+}
+
+#largeBoxAfter p{
+	margin-top: 6.4px;
+}
+
+#largeBoxAfterStatic{
+	position: static;
+}
+
+#largeBoxAfterAbsolute{
+	position:absolute;
+	top: 134px;
+	left: 317px;
+}
+
+#largeBoxAfterRelative{
+	position: relative;
+	top: 16px;
+	left: 15px;
+}
+
+#largeBoxAfterFloat{
+	float: right;
+	margin-top: -6.4px;
+}
+
+#largeBoxAfterRelativeFloat{
+	float: right;
+	position: relative;
+	top: 41px;
+	right: 150px;
+}

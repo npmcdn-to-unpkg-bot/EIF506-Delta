@@ -1,0 +1,53 @@
+#largeBox{
+	width: 98%;
+	height: 53px;
+	margin: 65px 4px 4px 4px;
+	position: absolute;
+}
+
+#before{
+	margin: 2px;
+	padding: 1px;
+	position: absolute;
+	width: 7%;
+	height: 17px;
+	left: 46.5%;
+	top: 5px;
+}
+
+#after{
+	margin: 2px;
+	padding: 1px;
+	position: absolute;
+	width: 7%;
+	height: 17px;
+	left: 46.5%;
+	top: 25px;
+}
+
+#absoluteBefore{
+	padding: 2px;
+	margin: 2px;
+	width: 15%;
+	position: absolute;
+	left: 60%;
+	top: 165px;
+}
+
+#absoluteAfter{
+	padding: 2px;
+	margin: 2px;
+	width: 15%;
+	position: absolute;
+	left: 83%;
+	top: -65px;
+}
+
+#location{
+	padding: 2px;
+	margin: 2px;
+	width: 40%;
+	position: absolute;
+	left: 9px;
+	top: 9px;
+}
