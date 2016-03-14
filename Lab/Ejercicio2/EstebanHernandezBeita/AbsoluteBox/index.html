@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<title>HTML + CSS Laboratory 2 Absolute Box</title>
+		<link href="https://npmcdn.com/basscss@8.0.1/css/basscss.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../css/styleAbsoluteBox.css">
+	</head>
+	<body>
+		<div class="box" id="largeBox">
+		
+			<p id="before" class="contentCentered">BEFORE</p>
+			<p id="after" class="contentCentered">AFTER</p>
+			
+			<div id="absoluteBefore" class="box smallBox">	
+				<p class="contentCentered">ABSOLUTE</p>
+				<p class="contentCentered">BEFORE</p>
+			</div> 
+			
+			<div id="location" class="box smallBox">
+				<p class="contentCentered">&uarr;</p>
+				<p class="contentCentered">Top</p>
+				<p class="contentCentered">&larr; Left&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Right &rarr;</p>
+				<p class="contentCentered">Bottom</p>
+				<p class="contentCentered">&darr;</p>
+			</div>
+			
+			<div id="absoluteAfter" class="box smallBox">
+				<p class="contentCentered">ABSOLUTE</p>
+				<p class="contentCentered">AFTER</p>
+			</div>			
+			
+		</div>
+	</body>
+</html>
