@@ -1,0 +1,317 @@
+/* Sección 1 */
+
+/* Sección 1.1 -------------------------------------------------------------------------------- */
+
+.bodybox div{ 
+	margin-top:1.5%;
+	margin-left:2%;
+	margin-right:2%;
+	margin-bottom:1.5%;
+	padding: 5%;
+	border: 0.1em solid;
+}
+
+.italic {
+	font-style: italic;
+	font-weight: bold;
+	margin-left:1%;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+.dotado {
+	border-style:dotted;
+}
+
+.borde{
+	background-color:#808080;
+	box-shadow: 0.5em 0.5em 0 0.5em black;
+}
+
+.amarillo, .sideBox, .middleBox, .wideYellow,
+.box, .stretchedBox
+{
+	background-color:#ffcc00;
+}
+
+.inner{
+	position:relative; 
+	height: 90%;
+	width: 90%;
+}
+
+.inner span{
+	position:relative !important; 
+}
+
+.inner span p{
+	font-weight: bold;
+}
+
+#dote{
+	width:90%;
+	height:90%;
+}
+
+#innerBox{
+	height: 100%;
+	width: 85%;
+	position:relative;
+}
+
+#top{
+	text-align:center;
+}
+
+#left{
+	float:left;
+}
+
+#right{
+	float:right;
+}
+
+#bottom{
+	float:center;
+	margin-left:20em;
+	margin-right:5em;
+	text-align:center;
+}
+
+/* Fin Sección 1.1 -------------------------------------------------------------------------------- */
+
+/* Sección 1.2 -------------------------------------------------------------------------------- */
+
+.izq{
+	margin-top: 0;
+	float:left;
+}
+
+.der{
+	float:right;
+	margin: 0 20% 0 0;
+}
+
+.sideBox{
+	width: 12%;
+	height: 5em;
+	border: 0.2em solid gray;
+	box-shadow: 0.1em 0.1em 0 0.1em black;
+	font-weight:bold;
+}
+
+.sideBox p{
+	overflow:hidden;
+}
+
+.middleBox{
+	float:left;
+	width: 30%;
+	height: 10em;
+	border: 0.2em solid gray;
+	box-shadow: 0.1em 0.1em 0 0.1em black;
+	position:relative;
+}
+
+#ancho{
+	float:left;
+	width:100%;
+	height: 5em;
+	border: 0.1em solid;
+}
+
+#ancho,#anchoAbs p{
+	font-weight: bold;
+	font-size:1.5em;
+}
+
+#boxFloatLeft{
+	float:left;
+	margin: -2% 0 0 2%;
+}
+
+#boxFloatRight{
+	float:right;
+	margin: -2% 32% 0 0;
+}
+
+#middleFloatBox{
+	margin: -2% 0 0 5%;
+}
+
+/* Fin Sección 1.2 -------------------------------------------------------------------------------- */
+
+/* Sección 1.3 -------------------------------------------------------------------------------- */
+
+.absBox div span{
+	position:absolute;
+}
+
+.aftAbs{
+	margin: 1.5% 0 0 45%;
+}
+
+.befAbs{
+	margin: -1.5% 0 0 45%;
+}
+
+#anchoAbs{
+	margin:15% 0 0 0;
+	width:100%;
+	height: 5em;
+	border: 0.1em solid;
+}
+
+#boxAbsBefore{
+	margin: 4em 0 0 55%;
+}
+
+#boxAbsAfter{
+	margin: -16em 0 0 70%;
+}
+
+#middleAbsBox{
+	margin: -12em 0 0 5%;
+}
+
+/* Fin Sección 1.3 -------------------------------------------------------------------------------- */
+
+/* Sección 2 */
+
+/* Sección 2.1 -------------------------------------------------------------------------------- */
+
+.bodyPositional div{
+
+	margin-bottom: 1%;
+	box-shadow: 0.05em 0.05em 0 0.05em black;
+
+}
+
+.bodyPositional p, .bodyPositional span {
+
+	box-shadow: 0.01em 0.01em 0 0.01em black;
+	
+}
+
+.wideYellow{
+	float:left;
+	width:100%;
+	height: 6em;
+	border: 0.1em solid;
+}
+
+#tiposAnt{
+	margin: 0 auto 0 auto;
+	width: 90%;
+	background-color:white;
+	border: 0.1em solid;
+}
+
+#tiposAnt span{
+	background-color:yellow;
+	border: 0.1em solid;
+	padding: 0 2% 0 2%;
+	margin: 0 2% 0 2%;
+}
+
+#tiposDesp{
+	width: 60%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:white;
+	border: 0.1em solid;
+}
+
+#tiposDesp span{
+	background-color:yellow;
+	border: 0.1em solid;
+	padding: 0 2% 0 2%;
+	margin: 0 2% 0 2%;
+}
+
+.spanStatic{
+	position: static;
+}
+
+.spanAbs{
+	top: 28%;
+	position: absolute;
+}
+
+.spanFix{
+	position: fixed;
+	bottom: 2%;
+}
+
+.spanRel{
+	position: relative;
+	top:0.5em;
+	left: 8%;
+}
+
+.spanFloat{
+	margin: 1em 2em 0 2em !important;
+	float: right;
+}
+/* Fin Sección 2.1 -------------------------------------------------------------------------------- */
+
+/* Sección 2.2 -------------------------------------------------------------------------------- */
+
+.body, .body div{
+	margin-bottom: 1%;
+}
+
+.body div{
+	border: 0.1em solid black;
+}
+
+.positional{
+	padding: 0 1%;
+}
+
+.box, .stretchedBox, .inlineGroup{
+	border: 0.3em solid black !important;
+}
+
+.box{
+	position:static;
+	text-align:center;
+	width: 7em;
+	height:7em;
+
+}
+
+.stretchedBox{
+	position:static;
+	margin:1% 10%;
+	width:auto;
+	height:auto;
+	text-align:center;
+}
+
+.stretchedBox p{
+	margin-top:1%;
+}
+
+.inlineGroup{
+	position:static;
+	margin: 0 auto;
+	width:95%;
+	height: 3em;
+	padding-top: 1em;
+}
+
+.inlineGroup span{
+	display:inline-block;
+	text-align:center;
+	width: 27%;
+	margin: 0 10%;
+	background-color:yellow;
+	border:0.01em solid black !important;
+}
+
+#zsBox{
+	position:static;
+	margin-left:45%;
+}
+/* Fin Sección 2.2 -------------------------------------------------------------------------------- */
