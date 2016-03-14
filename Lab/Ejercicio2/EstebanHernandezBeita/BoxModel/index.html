@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+		<title>HTML + CSS Laboratory 2 Box Model</title>
+		<link href="https://npmcdn.com/basscss@8.0.1/css/basscss.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<link rel="stylesheet" type="text/css" href="../css/styleBoxModel.css">
+	</head>
+	<body>
+		<div id="outerBox">
+			<p>Outer Box<p>
+			<div id="margin" class="dotted">
+				<p>Margin<p>
+				<div id="border">
+					<p id="borderText">Border<p>
+						<div id="padding">
+							<p>Padding<p>
+							<div id="innerBox" class="dotted">
+								<p>Inner Box<p>
+								<div id="contentInnerBox">
+								<p class="contentCentered">&#9650;<p>
+								<p class="contentCentered">Top<p>
+								<span>&#9668;</span>
+								<span>Left</span>
+								<span id="innerBoxMidSeparator"></span>
+								<span>Right</span>
+								<span>&#9658;</span>
+								<p class="contentCentered">Bottom<p>
+								<p class="contentCentered">&#9660;<p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
