@@ -7,11 +7,56 @@ h3 { font-size: 2.4em; }
 h4 { font-size: 2.1em; }
 h5 { font-size: 1.8em; }
 
+header,
+footer {
+	background: #00525F;
+}
 
+
+header, header a, header p, header div,
+header h1, header h2, header h1, header h2, header h5 {
+	color: #FFF;
+}
+footer, footer a, footer p, footer div,
+footer h1, footer h2, footer h1, footer h2, footer h5 {
+	color: #FFF;
+}
+
+button {
+	background: #1D676A;
+	color: #FFF;
+	padding: 10px 25px;
+	border-radius: 15px;
+}
+
+
+body {
+	background: #DFD9B5;
+	margin-bottom: 100px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 25px 0;
+
+	clear: both;
+	max-height: 100px;
+	border-top: 1px solid #000;
+	text-align: center;
+}
+
+
+header > div, header > nav,
+.container {
+	max-width: 1240px;
+	margin: 0 auto;
+}
 
 header > div {
 	height: 100px;
-	margin: 15px;
+	max-width: 1240px;
 }
 header > div > div {
 	width: 50%;
@@ -38,7 +83,6 @@ header > div .opt-container input {
 header > nav {
 	width: 100%;
 	padding: 25px;
-	border: 1px solid #000;
 }
 header > nav li {
 	float: left;
@@ -48,7 +92,6 @@ header > nav li {
 
 .container {
     width: 90%;
-    max-width: 1240px;
     min-height: 500px;
     margin: 15px auto;
 	padding: 50px 0 50px 30px;
@@ -79,21 +122,28 @@ header > nav li {
 	transition: transform 1s;
 }
 
-.slider ul li:nth-child(-n+3) { transform: rotateY( -120deg ); }
-.slider ul li:nth-child(n+5) { transform: rotateY( 120deg ); }
+.slider ul li:nth-child(-n+3) { transform: rotateY( 50deg ); box-shadow: -15px 15px 25px #555; }
+.slider ul li:nth-child(4) { box-shadow: 0px 15px 25px #555; }
+.slider ul li:nth-child(n+5) { transform: rotateY( -50deg ); box-shadow: 15px 15px 25px #555; }
 
-/*.slider ul li:nth-child(n) { float: left; }*/
-
-footer {
-	clear: both;
-	width: 100%;
-	padding: 25px 0;
-
-	border-top: 1px solid #000;
-	text-align: center;
+form {
+	padding: 15px;
+	width: 50%;
 }
+form tbody tr {
+	width: 100%;
+}
+form tbody tr td {
+	width: 50%;
+	padding: 15px;
+}
+
 
 
 @media (max-width: 768px) {
 	h1 { font-size: 1.5em; }
+
+	form {
+		width: 100%;
+	}
 }
