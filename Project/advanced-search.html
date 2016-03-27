@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Delta</title>
+
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<div>
+				<div class="logo-container">
+					<a href="./home.html"><img src="" alt="Places4everyneed.com"></a>
+				</div>
+
+				<div class="opt-container">
+					<a href="#init-session">log in</a>
+					<a href="./registry.html">register</a>
+					<input type="search" class="search-bar" placeholder="Quick search"></input>
+				</div>
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href="#home">home</a></li>
+					<li><a href="#category">category</a></li>
+					<li><a href="#options">options</a></li>
+					<li><a href="#about">about</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<div class="wrapper">
+			<div class="container">
+				<div class="header-title">
+					<h1>Búsqueda Personalizada</h1>
+				</div>
+				<form id="search-form">
+					<table>						
+						<tbody>
+							<tr>
+								<td class="required">Provincia</td>
+								<td>
+									<select id="provincia" name="provincia">
+										<option>San José</option>
+										<option>Heredia</option>
+										<option>Alajuela</option>
+										<option>Puntarenas</option>
+										<option>Limón</option>
+										<option>Guanacaste</option>
+										<option>Cartago</option>
+									</select>
+								</td>
+							</tr>
+
+							<tr>
+								<td class="required">Cantón</td>
+								<td>
+									<select id="canton" name="canton">
+										<option>1</option>
+										<option>2</option>
+										<option>3</option>
+										<option>4</option>
+										<option>5</option>
+										<option>6</option>
+										<option>7</option>
+									</select>
+								</td>
+							</tr>
+
+							<tr>
+								<td class="required">Extensión</td>
+								<td>
+									<input type="number" name="extension" class="extension"></input>
+									<span> Mínimo </span>
+									<input type="number" name="extension" class="extension"></input>
+									<span> Máximo </span>
+								</td>
+							</tr>
+
+							<tr>
+								<td class="required">Servicios</td>
+								<td>
+								<input type="checkbox" name="servicios">Agua</input>
+								<br/>
+								<input type="checkbox" name="servicios">Luz</input>
+								<br/>
+								<input type="checkbox" name="servicios">Vivienda</input>
+								<br/>
+								<input type="checkbox" name="servicios">Carretera asfaltada</input>
+								<br/>
+								<input type="checkbox" name="servicios">Residencial/Condominio</input>
+								<br/>
+								<input type="checkbox" name="servicios">Financiamiento</input>
+								</td>
+							</tr>
+
+							<tr>
+								<td class="optional">Precio</td>
+								<td>
+									<input type="number" name="precio"></input><span>Mínimo</span>
+									<input type="number" name="precio"></input><span>Maximo</span>
+								</td>
+							</tr>
+
+							<tr>
+								<td><button type="submit">Buscar</button></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</form>
+			</div>
+		</div>
+
+		<footer>
+			footer
+		</footer>
+	</body>
+</html>
