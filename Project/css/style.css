@@ -35,12 +35,10 @@ body {
 }
 
 footer {
-	position: absolute;
-	bottom: 0;
+	float: left;
 	width: 100%;
 	padding: 25px 0;
 
-	clear: both;
 	max-height: 100px;
 	border-top: 1px solid #000;
 	text-align: center;
@@ -103,8 +101,7 @@ header > nav li {
 	background: #F1F1F1;
 	color: #173039;
 }
-.header-title:before,
-.header-title:after {
+.header-title:before {
 	content: "";
 	display: block;
 	width: 100%;
