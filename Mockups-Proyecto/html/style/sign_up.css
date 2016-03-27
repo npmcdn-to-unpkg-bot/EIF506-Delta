@@ -1,0 +1,77 @@
+body{
+	margin: 1px;
+	padding: 1px;
+	border: 0px solid white;
+}
+header{
+	margin: 1px;
+	padding: 1px;
+	border: 0px solid white;
+	float: left;
+	width: 99.5%;
+	background-color: #008080;
+	color: white;
+}
+h1{
+	margin: 0.5%;
+	padding: 0.5%;
+	border: 0px;
+}
+nav{
+	margin: 1px;
+	padding: 1px;
+	border: 0px solid white;
+	float: left;
+	width: 99.5%;
+	background-color: #008080;
+	color: black;
+}
+menu{
+	margin: 1px;
+	padding: 1px;
+	border: 0px solid white;
+	float: left;
+	width: 99%;
+}
+menuitem{
+	margin: 3px;
+	padding: 1px;
+	border: 0.5px solid white;
+	float: left;
+}
+article{
+	margin: 1px;
+	margin-bottom: 4%;
+	padding: 1px;
+	border: 0px solid white;
+	float: left;
+	width: 99.5%;
+}
+div{
+	margin: 5px;
+	padding: 5px;
+	border: 0px solid white;
+	float: left;
+	width: 99%;
+}
+footer{
+	margin: 1px;
+	padding: 1px;
+	border: 0px solid white;
+	float: left;
+	width: 99.5%;
+	background-color: #008080;
+	color: black;
+}
+.label{
+	width: 10%;
+	float: left;
+}
+.input{
+	width: 30%;
+	float: left;
+}
+.div_foo{
+	width: 30%;
+	float: left;
+}
