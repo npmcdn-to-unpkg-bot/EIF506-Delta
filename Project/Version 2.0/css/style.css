@@ -127,6 +127,56 @@ footer p {
 	text-align: center;
 }
 
+.registro  {
+	
+	width: 90% !important;
+  	margin-left: 1% !important;
+  	margin-right: 1% !important;
+  	padding: 10px;
+	color: #444;
+
+}
+	
+.registro div{
+	width: 100% !important;
+	border : none;
+}
+
+.registro label {
+	display: inline-block;
+	width: 30% !important;
+	text-align: right;
+	margin: 10px
+}
+
+.registro input[type=text], .registro input[type=password]{
+	width: 30% !important; 
+	font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+	padding: 5px;
+	font-size: 0.9em;
+	border: 1px solid black !important;
+	border-radius: 5px;
+}
+  
+.registro input[type=text]:focus, .registro input[type=password]:focus{
+	background: #e6f2ff;
+}
+
+.registro h2{
+	font-size: 2em;
+}
+
+.button {
+	width: 15% !important;
+	font-size: 1em;
+	border-radius: 8px;
+	padding: 10px;
+	border: 1px solid lightblue;
+	box-shadow: 0 1px 0 0 lightblue inset;
+}
+
+ 
+ 
 @media only screen and (max-width: 800px) {
 	*{
 		font-size: 1em;
@@ -177,5 +227,23 @@ footer p {
 	}
 	.slide figure{
 		width: 95%;
+	}
+	
+	.registro {
+		width: 85% !important;
+	}
+	
+	.registro label{
+		text-align:left;
+		width: 100% !important; 
+		font-weight: bold;
+	}
+	
+	.registro input[type=text], .registro input[type=password]{
+		width: 100% !important; 
+	}
+	
+	.button {
+		width: 100% !important;
 	}
 }
