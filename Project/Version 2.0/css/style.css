@@ -88,6 +88,54 @@ menu menuitem :hover{
 	color: #EEAF19;
 }
 
+main {
+	width: 100%;
+	max-width: 1024px;
+	
+	margin: 0 auto;
+	padding: 50px;
+
+	float: none;
+	clear: both;
+}
+form label {
+	width: 20%;
+}
+form select {
+	width: 30%;
+}
+form input {
+	display: inline-block;
+	float: none;
+	width: 20%;
+}
+form input[type="text"] {
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+form input[type="checkbox"] {
+	width: 20px;
+	margin: 0.3em;
+}
+form input.short {
+	width: 10%;
+}
+form button {
+	margin: 15px 50px;
+	padding: 10px 25px;
+	width: 150px;
+
+	background: #e29e00;
+	border-radius: 15px;
+
+	color: #FFF;
+}
+form .row {
+	padding: 10px 25px;
+}
+form .row:hover {
+	background: rgba(0,0,0,0.03);
+}
 article{
 	background: #F6E9CC;
 }
@@ -212,6 +260,31 @@ footer p {
 	}
 	menu :first-child{
 		margin-left: 1%;
+	}
+	main {
+		width: 95%;
+		padding: 15px 0;
+	}
+	form label,
+	form input,
+	form input.short,
+	form select {
+		width: 100%;
+		padding: 5px 0;
+	}
+	form input[type="checkbox"] {
+	    display: block;
+	    margin: 1.7em 0 0;
+	    width: 10%;
+	}
+	form .row {
+		padding: 15px 0;
+	}
+	form button {
+		display: block;
+		margin: 0 auto;
+		width: 90%;
+		float: none;
 	}
 	#slider{
 		width: 95%;
