@@ -1,0 +1,146 @@
+/*
+ * Estilos del slider
+ */
+#slider{
+  width:99%;
+  position: relative;
+  padding:.3em;
+  padding-bottom:.11em;
+  border:0px;
+  overflow:hidden;  
+  text-align: center;
+}
+/*
+ * Estilos generales para los figure
+ */
+.slide figure{
+  width:100%;
+  float:left;
+  padding:0;
+  /*margin-right:-100% !important;*/
+}
+/*
+ * Estilos generales para las img
+ */
+.slide figure img{
+  width:1024px;
+  max-width:100%;
+  height:auto;
+  max-height:360px;
+  position: relative;
+  right: 10%;
+  left: 10%;
+}
+/*
+ * Estilo para los input radio
+ */
+.slide input[type="radio"]{
+ display:none;
+}
+/*
+ * Estilos generales para los label
+ */
+.slide label{
+    position:absolute;
+    display:block;
+    width:1em;
+    height:1em;
+    border-radius:50%;
+    background:rgba(230,126,34,.7);
+    top:1em;
+    cursor:pointer;
+    z-index:30;
+ }
+ /* 
+  * Estilo para los label, cuando sucede el evento hover, ó cuando el radio relacionado a ese label esta seleccionado
+  */
+.slide .label:hover,.slide input[type="radio"]:checked~label{
+  background:rgba(131,206,130,.7);
+  transition:.2s background;
+}
+/*
+ * Estilos para los label del 1 al 4
+ */
+.slide .label-1{
+  left:1em;
+}
+.slide .label-2{
+  left:2.25em;
+}
+.slide .label-3{
+  left:3.50em;  
+}
+.slide .label-4{
+  left:4.75em;
+}
+/*
+ * Estilos para el figure, cuando el radio no esta seleccionado
+ */
+.slide input[type="radio"]:not(:checked) ~ figure{
+  opacity:0;
+  transition:opacity .6s;
+  pointer-events:none;
+  display: none;
+ }
+ /*
+  * Estilos del figcaption de cada slide
+  */
+.slide figcaption{
+  color:#ecf0f1;
+  position:absolute;
+  bottom:-9999px;  
+  padding:1em;
+  line-height:1.6em;
+  box-sizing:border-box;
+  transition:.5s all;
+}
+/*
+ * Estilos para los figcaption que son hijos del figure relacionado al radio seleccionado
+ */
+.slide input[type="radio"]:checked  ~figure>figcaption{
+  background:rgba(34,49,63,.6);
+  bottom:.3em;
+  width:calc(100% - .6em);
+  tranisition:.5s all;
+  display: block;
+ }
+/*
+ * Maneja los estilos del tag figure, cuando el input de tipo radio esta seleccionado (checked)
+ */
+.slide input[type="radio"]:checked  ~ figure{
+  -webkit-animation: animateSlide .4s alternate; /* Safari, chrome, opera */
+    -moz-animation: animateSlide .4s alternate; /* Mozilla */
+    animation: animateSlide .4s alternate;
+	display: block;
+}
+/* animacion para safari, chrome, opera */
+@-webkit-keyframes animateSlide{
+  0%{
+     transform:translateX(100%);
+  }
+  100%{
+   
+    transform:translateX(0%);
+  }
+}
+/* animacion para mozilla */
+@-moz-keyframes animateSlide{
+  0%{
+     transform:translateX(100%);
+  }
+  100%{
+   
+    transform:translateX(0%);
+  }
+}
+/* animacion standard */
+@keyframes animateSlide{
+  0%{
+     transform:translateX(100%);
+      
+  }
+  100%{
+   
+    transform:translateX(0%);
+  }
+}
