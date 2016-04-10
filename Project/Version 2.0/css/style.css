@@ -7,6 +7,7 @@
 	padding: 0px;
 	border: 0px;
 	width: 100%;
+	font-size: 1.05em;
 }
 /*
  * Estilos para el header
@@ -25,6 +26,7 @@ h1{
 	margin-left: 2%;
 	width: 40%;
 	color: #E29E00;
+	font-size: 2em;
 }
 /*
  * Estilos para div de search, haciendo el borde redondo
@@ -123,4 +125,57 @@ footer{
 footer p {
 	width: 97%;
 	text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+	*{
+		font-size: 1em;
+	}
+	header{
+		width: 98%;
+	}
+	header h1{
+		text-align: center;
+		width: 97%;
+		font-size: 1em;
+	}
+	header #search{
+		margin-left: 2%;
+		width: 94%;
+	}
+	header ul{
+		width: 88%;
+	}
+	header ul li{
+		width: 97%;
+		text-align: center;
+	}
+	menu{
+		width: 99%;
+	}
+	menu menuitem{
+		margin-left: 1%;
+		text-align: center;
+		display: block;
+		width: 98%;
+		border: 1px solid white;
+	}
+	menu :first-child{
+		margin-left: 1%;
+	}
+	#slider{
+		width: 95%;
+	}
+	.slide figure img{
+		width:1024px;
+		max-width:98%;
+		height:auto;
+		max-height:360px;
+		position: relative;
+		right: 0%;
+		left: 1%;
+	}
+	.slide figure{
+		width: 95%;
+	}
 }
