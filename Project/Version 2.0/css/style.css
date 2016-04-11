@@ -250,6 +250,48 @@ footer p {
 	padding: 5px 15px;
 }
 
+/*
+ * Estilo para las opciones de acerca de
+ */
+ 
+ #acercaDeMain{
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 5px;
+ }
+ 
+ #acercaDeMain figure{
+	margin-left:0px;
+	margin-right:0px;
+ }
+ 
+ #acercaDeMain p{
+	margin-top: 10px;
+	margin-bottom: 10px;
+ }
+ 
+ #mainImgAcercaDe{
+	max-height: 300px; 
+	width: 100%;
+ }
+ 
+ #acercaDeMain h3{
+	color: #E29E00;
+ }
+ 
+ #acercaDeMain section{
+	width: 65%;
+ }
+ 
+ #acercaDeMain article{
+	background-color: white;
+ }
+ 
+ #acercaDeMain aside{
+	width: 35%;
+ }
+
 @media only screen and (max-width: 800px) {
 	*{
 		font-size: 1em;
