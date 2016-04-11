@@ -344,4 +344,8 @@ footer p {
 	.button {
 		width: 100% !important;
 	}
+
+	.table-results {
+		margin: 25px 0;
+	}
 }
