@@ -1,13 +1,12 @@
 /*
  * Estilos generales para todos los elementos, basado en el box model
  */
-*{
+* {
 	float: left;
 	margin: 0px;
 	padding: 0px;
 	border: 0px;
 	width: 100%;
-	font-size: 1.05em;
 }
 /*
  * Estilos para el header
@@ -150,7 +149,7 @@ article{
 	text-align: center;
 	margin-left: 5%;
 }
-.img a{
+.img a {
 	color: black;
 }
 .img img {
@@ -223,8 +222,34 @@ footer p {
 	box-shadow: 0 1px 0 0 lightblue inset;
 }
 
- 
- 
+.table-results tr {
+	display: table;
+	float: none;
+}
+.table-results td {
+	float: none;
+}
+.table-results.advanced-search td {
+	width: 25%;
+}
+
+.table-results thead tr {
+	background: rgba(83,130,152,1);
+}
+.table-results tbody tr:nth-child(2n) {
+	background: rgba(83,130,152,0.5);
+}
+.table-results tbody tr:nth-child(2n+1) {
+	background: rgba(83,130,152,0.3);
+}
+.table-results thead td {
+	padding: 15px;
+	color: #DDD;
+}
+.table-results tbody td {
+	padding: 5px 15px;
+}
+
 @media only screen and (max-width: 800px) {
 	*{
 		font-size: 1em;
