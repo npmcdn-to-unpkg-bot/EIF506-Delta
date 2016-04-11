@@ -394,4 +394,13 @@ footer p {
 	.table-results {
 		margin: 25px 0;
 	}
+	
+	#acercaDeMain section{
+		width: 100%;
+		padding-right: 0%;
+	}
+
+	#acercaDeMain aside{
+		display: none;
+	}
 }
