@@ -282,6 +282,7 @@ footer p {
  
  #acercaDeMain section{
 	width: 65%;
+	padding-right: 5%;
  }
  
  #acercaDeMain article{
@@ -289,8 +290,11 @@ footer p {
  }
  
  #acercaDeMain aside{
-	width: 35%;
+	width: 30%;
  }
+
+ 
+ 
 
 @media only screen and (max-width: 800px) {
 	*{
