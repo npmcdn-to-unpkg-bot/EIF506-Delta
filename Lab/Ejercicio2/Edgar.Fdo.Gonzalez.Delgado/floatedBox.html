@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+	<div class="large">
+		<div class="float-before"></div>
+		<div class="box"></div>
+		<div class="float-after"></div>
+	</div>
+	</body>
+</html>
+
+<style type="text/css">
+	.large { width: 100%; height: 40px; border: 1px solid #AAA; padding: 30px 0 0 0; }
+	div	{ background: #FF0; }
+	.box,
+	.float-after,
+	.float-before { 
+		float: left;
+		margin: 0 7px;
+		padding: 10px;
+		border-top: 5px solid #888;
+		border-left: 5px solid #888;
+		border-right: 5px solid #555;
+		border-bottom: 5px solid #555;
+	}
+	.float-before, .float-after { height: 80px; width: 120px; }
+	.box { width: 250px; height: 150px; }
+</style>
